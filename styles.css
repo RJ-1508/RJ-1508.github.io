@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Helvetica, sans-serif;
+    background-color: #3498db;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +9,8 @@ body {
 }
 
 .card {
-    background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    background-color: #00FFF7;
+    border: 2px solid #A500F0;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -19,6 +18,12 @@ body {
 }
 
 .card p {
-    font-size: 16px;
-    margin: 5px 0;
+    font-size: 20px; 
+    margin: 10px 0;
+.photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+		
+}
 }
